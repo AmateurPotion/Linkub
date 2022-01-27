@@ -1,0 +1,13 @@
+{
+    "title": "Linkhub config schema",
+    "description": "desc.",
+    "type": "object",
+    "properties": {
+        "list": {
+            "type": "array",
+            "properties": {
+                
+            }
+        }
+    }
+}

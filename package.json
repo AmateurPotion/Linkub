@@ -1,0 +1,20 @@
+{
+  "name": "linkub",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "amatuerpotion",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "devServer": "npx ts-node-dev --transpile-only -r tsconfig-paths/register src/index.ts",
+    "compile": "scripts\\compile.bat"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "tsconfig-paths": "^3.12.0"
+  }
+}

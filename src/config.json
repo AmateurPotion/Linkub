@@ -1,0 +1,20 @@
+{
+    "$schema": "./config.schema.json",
+    "port": 7000,
+    "list": [
+        {
+            "name": "discord",
+            "type": "node",
+            "active": true,
+            "src": "D://workspace/nodeshar/nodejsbot/src/",
+            "entry": "index.ts"
+        },
+        {
+            "name": "kakaotalk",
+            "type": "node",
+            "active": false,
+            "src": "./modules/kakaotalk/",
+            "entry": "index.ts"
+        }
+    ]
+}
